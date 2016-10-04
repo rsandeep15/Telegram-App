@@ -7,7 +7,9 @@
 //
 
 #import "SRAppDelegate.h"
-
+#import "MorseCode.h"
+#import "TelegramViewController.h"
+#import "HomeViewController.h"
 @implementation SRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,6 +18,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    HomeViewController *home = [[HomeViewController alloc]init];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:home];
+    self.window.rootViewController = navController;
+    
     return YES;
 }
 
