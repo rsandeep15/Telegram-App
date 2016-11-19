@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TelegramViewController.m"
-            timestampString = "444819512.155964"
+            timestampString = "501229080.270923"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251">
+            startingLineNumber = "252"
+            endingLineNumber = "252">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -141,6 +141,54 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "10"
             endingLineNumber = "10">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Telegram App/MorseReferenceTableViewController.swift"
+            timestampString = "501232097.872479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init(nibName:bundle:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegram_App.MorseReferenceTableViewController.init () -&gt; Telegram_App.MorseReferenceTableViewController"
+                  moduleName = "Telegram App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandeepr/Telegram-App/Telegram%20App/MorseReferenceTableViewController.swift"
+                  timestampString = "501231835.238253"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Telegram_App.MorseReferenceTableViewController.__allocating_init () -&gt; Telegram_App.MorseReferenceTableViewController"
+                  moduleName = "Telegram App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandeepr/Telegram-App/Telegram%20App/MorseReferenceTableViewController.swift"
+                  timestampString = "501231835.243965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

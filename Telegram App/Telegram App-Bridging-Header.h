@@ -3,4 +3,4 @@
 //
 
 #import "TelegramViewController.h"
-#import "MorseReferenceTableViewController.h"
+#import "MorseCode.h"

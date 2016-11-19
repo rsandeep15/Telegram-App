@@ -24,9 +24,9 @@
 		A4BFB252197CC5AC005A6D95 /* MorseCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BFB251197CC5AC005A6D95 /* MorseCode.m */; };
 		A4C209ED19A42E50006DE876 /* DOT.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4C209EC19A42E50006DE876 /* DOT.wav */; };
 		A4C209EF19A42E5C006DE876 /* DASH.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4C209EE19A42E5C006DE876 /* DASH.wav */; };
-		A4C209F219A6BC1C006DE876 /* MorseReferenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */; };
 		A4C209F419A6D4C8006DE876 /* MorseLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4C209F319A6D4C8006DE876 /* MorseLogo.jpg */; };
 		A4D98BA21DE020D20038E6E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D98BA11DE020D20038E6E3 /* Launch Screen.storyboard */; };
+		A4D98BA41DE027A50038E6E3 /* MorseReferenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D98BA31DE027A50038E6E3 /* MorseReferenceTableViewController.swift */; };
 		A4E313AC19ADAE3100F03090 /* App icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AB19ADAE3100F03090 /* App icon.png */; };
 		A4E313AE19AFFE6300F03090 /* App icon 80.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AD19AFFE6300F03090 /* App icon 80.png */; };
 		A4E313B019AFFEDE00F03090 /* App icon 58.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AF19AFFEDE00F03090 /* App icon 58.png */; };
@@ -67,10 +67,9 @@
 		A4BFB251197CC5AC005A6D95 /* MorseCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCode.m; sourceTree = "<group>"; };
 		A4C209EC19A42E50006DE876 /* DOT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DOT.wav; sourceTree = SOURCE_ROOT; };
 		A4C209EE19A42E5C006DE876 /* DASH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DASH.wav; sourceTree = SOURCE_ROOT; };
-		A4C209F019A6BC1C006DE876 /* MorseReferenceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseReferenceTableViewController.h; sourceTree = "<group>"; };
-		A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseReferenceTableViewController.m; sourceTree = "<group>"; };
 		A4C209F319A6D4C8006DE876 /* MorseLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MorseLogo.jpg; sourceTree = SOURCE_ROOT; };
 		A4D98BA11DE020D20038E6E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A4D98BA31DE027A50038E6E3 /* MorseReferenceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseReferenceTableViewController.swift; sourceTree = "<group>"; };
 		A4E313AB19ADAE3100F03090 /* App icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon.png"; sourceTree = SOURCE_ROOT; };
 		A4E313AD19AFFE6300F03090 /* App icon 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 80.png"; sourceTree = SOURCE_ROOT; };
 		A4E313AF19AFFEDE00F03090 /* App icon 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 58.png"; sourceTree = SOURCE_ROOT; };
@@ -137,8 +136,7 @@
 			children = (
 				A416E3521DE00BA2006D67A1 /* HomeViewController.swift */,
 				A4682F431993F9B00081D394 /* HomeView.xib */,
-				A4C209F019A6BC1C006DE876 /* MorseReferenceTableViewController.h */,
-				A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */,
+				A4D98BA31DE027A50038E6E3 /* MorseReferenceTableViewController.swift */,
 				A47D035D197EF01000EB1F9B /* TelegramViewController.h */,
 				A47D035E197EF01000EB1F9B /* TelegramViewController.m */,
 				A47D0360197F120F00EB1F9B /* TelegramView.xib */,
@@ -282,7 +280,7 @@
 			files = (
 				A416E3531DE00BA2006D67A1 /* HomeViewController.swift in Sources */,
 				A4BFB252197CC5AC005A6D95 /* MorseCode.m in Sources */,
-				A4C209F219A6BC1C006DE876 /* MorseReferenceTableViewController.m in Sources */,
+				A4D98BA41DE027A50038E6E3 /* MorseReferenceTableViewController.swift in Sources */,
 				A47D035F197EF01000EB1F9B /* TelegramViewController.m in Sources */,
 				A4F9450B1DE0175F00439DD0 /* SRAppDelegate.swift in Sources */,
 			);
