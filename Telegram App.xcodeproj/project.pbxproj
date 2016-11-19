@@ -11,18 +11,14 @@
 		844E96EF1977B0290063FFD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E96EE1977B0290063FFD7 /* CoreGraphics.framework */; };
 		844E96F11977B0290063FFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E96F01977B0290063FFD7 /* UIKit.framework */; };
 		844E96F71977B02B0063FFD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844E96F51977B02B0063FFD7 /* InfoPlist.strings */; };
-		844E96F91977B02C0063FFD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E96F81977B02C0063FFD7 /* main.m */; };
-		844E96FD1977B02D0063FFD7 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E96FC1977B02D0063FFD7 /* SRAppDelegate.m */; };
 		844E96FF1977B02E0063FFD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E96FE1977B02E0063FFD7 /* Images.xcassets */; };
 		844E97061977B02F0063FFD7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E97051977B02F0063FFD7 /* XCTest.framework */; };
 		844E97071977B02F0063FFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E96EC1977B0290063FFD7 /* Foundation.framework */; };
 		844E97081977B02F0063FFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E96F01977B0290063FFD7 /* UIKit.framework */; };
-		844E97101977B02F0063FFD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844E970E1977B02F0063FFD7 /* InfoPlist.strings */; };
-		844E97121977B02F0063FFD7 /* Telegram_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E97111977B02F0063FFD7 /* Telegram_AppTests.m */; };
+		A416E3531DE00BA2006D67A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A416E3521DE00BA2006D67A1 /* HomeViewController.swift */; };
 		A459CE8F1A3BD57900608F6B /* App icon 180.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CE8E1A3BD57900608F6B /* App icon 180.png */; };
 		A459CE911A3BD7C400608F6B /* App Icon 120.png in Resources */ = {isa = PBXBuildFile; fileRef = A459CE901A3BD7C400608F6B /* App Icon 120.png */; };
 		A4682F441993F9B00081D394 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4682F431993F9B00081D394 /* HomeView.xib */; };
-		A4682F471993FD090081D394 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4682F461993FD090081D394 /* HomeViewController.m */; };
 		A47D035F197EF01000EB1F9B /* TelegramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D035E197EF01000EB1F9B /* TelegramViewController.m */; };
 		A47D0361197F120F00EB1F9B /* TelegramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47D0360197F120F00EB1F9B /* TelegramView.xib */; };
 		A4BFB252197CC5AC005A6D95 /* MorseCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BFB251197CC5AC005A6D95 /* MorseCode.m */; };
@@ -30,9 +26,11 @@
 		A4C209EF19A42E5C006DE876 /* DASH.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4C209EE19A42E5C006DE876 /* DASH.wav */; };
 		A4C209F219A6BC1C006DE876 /* MorseReferenceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */; };
 		A4C209F419A6D4C8006DE876 /* MorseLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4C209F319A6D4C8006DE876 /* MorseLogo.jpg */; };
+		A4D98BA21DE020D20038E6E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D98BA11DE020D20038E6E3 /* Launch Screen.storyboard */; };
 		A4E313AC19ADAE3100F03090 /* App icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AB19ADAE3100F03090 /* App icon.png */; };
 		A4E313AE19AFFE6300F03090 /* App icon 80.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AD19AFFE6300F03090 /* App icon 80.png */; };
 		A4E313B019AFFEDE00F03090 /* App icon 58.png in Resources */ = {isa = PBXBuildFile; fileRef = A4E313AF19AFFEDE00F03090 /* App icon 58.png */; };
+		A4F9450B1DE0175F00439DD0 /* SRAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9450A1DE0175F00439DD0 /* SRAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,19 +52,14 @@
 		844E96F61977B02B0063FFD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		844E96F81977B02C0063FFD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		844E96FA1977B02C0063FFD7 /* Telegram App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telegram App-Prefix.pch"; sourceTree = "<group>"; };
-		844E96FB1977B02C0063FFD7 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
-		844E96FC1977B02D0063FFD7 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
 		844E96FE1977B02E0063FFD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		844E97041977B02F0063FFD7 /* Telegram AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telegram AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E97051977B02F0063FFD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		844E970D1977B02F0063FFD7 /* Telegram AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Telegram AppTests-Info.plist"; sourceTree = "<group>"; };
-		844E970F1977B02F0063FFD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		844E97111977B02F0063FFD7 /* Telegram_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Telegram_AppTests.m; sourceTree = "<group>"; };
+		A416E3511DE00BA1006D67A1 /* Telegram App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telegram App-Bridging-Header.h"; sourceTree = "<group>"; };
+		A416E3521DE00BA2006D67A1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A459CE8E1A3BD57900608F6B /* App icon 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 180.png"; sourceTree = SOURCE_ROOT; };
 		A459CE901A3BD7C400608F6B /* App Icon 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon 120.png"; sourceTree = SOURCE_ROOT; };
 		A4682F431993F9B00081D394 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
-		A4682F451993FD090081D394 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		A4682F461993FD090081D394 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A47D035D197EF01000EB1F9B /* TelegramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TelegramViewController.h; path = ../TelegramViewController.h; sourceTree = "<group>"; };
 		A47D035E197EF01000EB1F9B /* TelegramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TelegramViewController.m; path = ../TelegramViewController.m; sourceTree = "<group>"; };
 		A47D0360197F120F00EB1F9B /* TelegramView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TelegramView.xib; path = ../TelegramView.xib; sourceTree = "<group>"; };
@@ -77,9 +70,11 @@
 		A4C209F019A6BC1C006DE876 /* MorseReferenceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseReferenceTableViewController.h; sourceTree = "<group>"; };
 		A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseReferenceTableViewController.m; sourceTree = "<group>"; };
 		A4C209F319A6D4C8006DE876 /* MorseLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MorseLogo.jpg; sourceTree = SOURCE_ROOT; };
+		A4D98BA11DE020D20038E6E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A4E313AB19ADAE3100F03090 /* App icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon.png"; sourceTree = SOURCE_ROOT; };
 		A4E313AD19AFFE6300F03090 /* App icon 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 80.png"; sourceTree = SOURCE_ROOT; };
 		A4E313AF19AFFEDE00F03090 /* App icon 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon 58.png"; sourceTree = SOURCE_ROOT; };
+		A4F9450A1DE0175F00439DD0 /* SRAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +107,6 @@
 				A4BFB250197CC5AC005A6D95 /* MorseCode.h */,
 				A4BFB251197CC5AC005A6D95 /* MorseCode.m */,
 				844E96F21977B0290063FFD7 /* Telegram App */,
-				844E970B1977B02F0063FFD7 /* Telegram AppTests */,
 				844E96EB1977B0290063FFD7 /* Frameworks */,
 				844E96EA1977B0290063FFD7 /* Products */,
 			);
@@ -141,16 +135,14 @@
 		844E96F21977B0290063FFD7 /* Telegram App */ = {
 			isa = PBXGroup;
 			children = (
-				A4682F451993FD090081D394 /* HomeViewController.h */,
-				A4682F461993FD090081D394 /* HomeViewController.m */,
+				A416E3521DE00BA2006D67A1 /* HomeViewController.swift */,
 				A4682F431993F9B00081D394 /* HomeView.xib */,
 				A4C209F019A6BC1C006DE876 /* MorseReferenceTableViewController.h */,
 				A4C209F119A6BC1C006DE876 /* MorseReferenceTableViewController.m */,
 				A47D035D197EF01000EB1F9B /* TelegramViewController.h */,
 				A47D035E197EF01000EB1F9B /* TelegramViewController.m */,
 				A47D0360197F120F00EB1F9B /* TelegramView.xib */,
-				844E96FB1977B02C0063FFD7 /* SRAppDelegate.h */,
-				844E96FC1977B02D0063FFD7 /* SRAppDelegate.m */,
+				A4F9450A1DE0175F00439DD0 /* SRAppDelegate.swift */,
 				844E96FE1977B02E0063FFD7 /* Images.xcassets */,
 				A4C209EC19A42E50006DE876 /* DOT.wav */,
 				A4C209EE19A42E5C006DE876 /* DASH.wav */,
@@ -161,6 +153,8 @@
 				A4E313AF19AFFEDE00F03090 /* App icon 58.png */,
 				A459CE8E1A3BD57900608F6B /* App icon 180.png */,
 				844E96F31977B02A0063FFD7 /* Supporting Files */,
+				A416E3511DE00BA1006D67A1 /* Telegram App-Bridging-Header.h */,
+				A4D98BA11DE020D20038E6E3 /* Launch Screen.storyboard */,
 			);
 			path = "Telegram App";
 			sourceTree = "<group>";
@@ -172,24 +166,6 @@
 				844E96F51977B02B0063FFD7 /* InfoPlist.strings */,
 				844E96F81977B02C0063FFD7 /* main.m */,
 				844E96FA1977B02C0063FFD7 /* Telegram App-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		844E970B1977B02F0063FFD7 /* Telegram AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				844E97111977B02F0063FFD7 /* Telegram_AppTests.m */,
-				844E970C1977B02F0063FFD7 /* Supporting Files */,
-			);
-			path = "Telegram AppTests";
-			sourceTree = "<group>";
-		};
-		844E970C1977B02F0063FFD7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				844E970D1977B02F0063FFD7 /* Telegram AppTests-Info.plist */,
-				844E970E1977B02F0063FFD7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,11 +215,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SR;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
 					844E96E81977B0290063FFD7 = {
-						DevelopmentTeam = 398P4774Q2;
+						DevelopmentTeam = 2SP49XQ42W;
+						LastSwiftMigration = 0810;
 					};
 					844E97031977B02F0063FFD7 = {
 						TestTargetID = 844E96E81977B0290063FFD7;
@@ -277,6 +254,7 @@
 				A4C209ED19A42E50006DE876 /* DOT.wav in Resources */,
 				844E96F71977B02B0063FFD7 /* InfoPlist.strings in Resources */,
 				A4E313B019AFFEDE00F03090 /* App icon 58.png in Resources */,
+				A4D98BA21DE020D20038E6E3 /* Launch Screen.storyboard in Resources */,
 				A459CE911A3BD7C400608F6B /* App Icon 120.png in Resources */,
 				A47D0361197F120F00EB1F9B /* TelegramView.xib in Resources */,
 				A4C209F419A6D4C8006DE876 /* MorseLogo.jpg in Resources */,
@@ -292,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844E97101977B02F0063FFD7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A416E3531DE00BA2006D67A1 /* HomeViewController.swift in Sources */,
 				A4BFB252197CC5AC005A6D95 /* MorseCode.m in Sources */,
-				844E96F91977B02C0063FFD7 /* main.m in Sources */,
 				A4C209F219A6BC1C006DE876 /* MorseReferenceTableViewController.m in Sources */,
-				844E96FD1977B02D0063FFD7 /* SRAppDelegate.m in Sources */,
-				A4682F471993FD090081D394 /* HomeViewController.m in Sources */,
 				A47D035F197EF01000EB1F9B /* TelegramViewController.m in Sources */,
+				A4F9450B1DE0175F00439DD0 /* SRAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +292,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844E97121977B02F0063FFD7 /* Telegram_AppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,14 +314,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		844E970E1977B02F0063FFD7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				844E970F1977B02F0063FFD7 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -363,13 +330,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -382,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -401,21 +374,27 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -425,14 +404,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SP49XQ42W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegram App/Telegram App-Prefix.pch";
 				INFOPLIST_FILE = "Telegram App/Telegram App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cogswell.Telegram-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Telegram App/Telegram App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,14 +429,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2SP49XQ42W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegram App/Telegram App-Prefix.pch";
 				INFOPLIST_FILE = "Telegram App/Telegram App-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cogswell.Telegram-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Telegram App/Telegram App-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -459,6 +451,7 @@
 		844E97191977B02F0063FFD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Telegram App.app/Telegram App";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -472,6 +465,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Telegram AppTests/Telegram AppTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cogswell.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -481,6 +475,7 @@
 		844E971A1977B02F0063FFD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Telegram App.app/Telegram App";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -490,6 +485,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegram App/Telegram App-Prefix.pch";
 				INFOPLIST_FILE = "Telegram AppTests/Telegram AppTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cogswell.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

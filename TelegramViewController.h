@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Sandeep  Raghunandhan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
 @interface TelegramViewController : UIViewController
 @end
